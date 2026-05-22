@@ -38,9 +38,6 @@ jobs:
     name: Publish to PyPI
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: pypi
-      url: https://pypi.org/p/quelvio-langchain
     permissions:
       # ``id-token: write`` is required for PyPI trusted publishing (OIDC).
       # No PyPI API token in repo secrets is needed; PyPI verifies the
