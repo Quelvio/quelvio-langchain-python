@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "quelvio-langchain"
-version = "0.1.0"
+version = "0.1.1"
 description = "Quelvio for LangChain — your company's brain as a LangChain tool and retriever."
 readme = "README.md"
 license = { text = "MIT" }
@@ -128,3 +128,4 @@ filterwarnings = [
     "ignore::DeprecationWarning:langchain_core.*",
     "ignore::PendingDeprecationWarning",
 ]
+
